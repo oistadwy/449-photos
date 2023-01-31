@@ -17,10 +17,15 @@ h1 {
     font-size: 3.5rem;
     margin-left: 50px;
     margin-bottom: 15px;
+    background-image: url('photos/Orange.png');
+    background-repeat: no-repeat;
+    background-size: 70px;
+    padding-left: 65px;
+    background-position: center left;
 }
 
 header {
-    background: grey;
+    background: #808080;
     border-bottom: 2px solid black;
 }
 
@@ -37,6 +42,7 @@ div{
 .bio {
     font-size: 2rem;
     padding: 50px;
+    padding-bottom: 0px;
     margin-top: 50px;
     margin-left: 50px;
 }
@@ -44,4 +50,12 @@ div{
 p {
     font-size: 1.5rem;
     margin-top: 50px;
+}
+
+.fullscreen {
+    width: 50%;
+}
+
+.description {
+    margin: 15px;
 }
